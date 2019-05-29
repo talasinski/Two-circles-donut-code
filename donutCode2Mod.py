@@ -108,7 +108,7 @@ def main():
     plt.scatter(X[:,0], X[:,1], c=Y)
     plt.title("Train Data Set")
     plt.show()
-    n_hidden = 50
+    n_hidden = 10
     iter = 100
     W1 = np.random.randn(2, n_hidden)
     b1 = np.random.randn(n_hidden)
